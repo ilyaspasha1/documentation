@@ -1,0 +1,115 @@
+\doxysection{Queue Class Reference}
+\hypertarget{class_queue}{}\label{class_queue}\index{Queue@{Queue}}
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_queue_a7cfca3637d57c4a9e37351b3426ffd40}{Queue}} ()
+\begin{DoxyCompactList}\small\item\em private variable queue\+\_\+array to store element \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_queue_ab1e4ece63bf40b6c39eca24c7a8c2bb5}{insert}} ()
+\begin{DoxyCompactList}\small\item\em method for enering data into a queue \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_queue_a3d2c6c91c925e5539f5a9e35fc304e61}{remove}} ()
+\item 
+void \mbox{\hyperlink{class_queue_a3e0d42ab9a74d1c915fea58e4067e385}{display}} ()
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+int \mbox{\hyperlink{class_queue_a8b412205bebd2e90296d7f2001af78a5}{FRONT}}
+\begin{DoxyCompactList}\small\item\em private vsriable max for maxi,u, capacity of element \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{class_queue_a37bcef70a0e9e74bb193ba246ee051ee}{REAR}}
+\begin{DoxyCompactList}\small\item\em private variable front for indicate the first element \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{class_queue_a3b3b39c8153297e99da4e16dc215acec}{queue\+\_\+array}} \mbox{[}\mbox{\hyperlink{class_queue_a5aa3bb49ee0375657d957679ed3059a0}{max}}\mbox{]}
+\begin{DoxyCompactList}\small\item\em private vsriable to rear for indicate the last element \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsubsection*{Static Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+static const int \mbox{\hyperlink{class_queue_a5aa3bb49ee0375657d957679ed3059a0}{max}} = 5
+\end{DoxyCompactItemize}
+
+
+\label{doc-constructors}
+\Hypertarget{class_queue_doc-constructors}
+\doxysubsection{Constructor \& Destructor Documentation}
+\Hypertarget{class_queue_a7cfca3637d57c4a9e37351b3426ffd40}\index{Queue@{Queue}!Queue@{Queue}}
+\index{Queue@{Queue}!Queue@{Queue}}
+\doxysubsubsection{\texorpdfstring{Queue()}{Queue()}}
+{\footnotesize\ttfamily \label{class_queue_a7cfca3637d57c4a9e37351b3426ffd40} 
+Queue\+::\+Queue (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+private variable queue\+\_\+array to store element 
+
+Construct a new \doxylink{class_queue}{Queue} object set defaulrt queue null with front =-\/1 and rear = -\/1 
+
+\label{doc-func-members}
+\Hypertarget{class_queue_doc-func-members}
+\doxysubsection{Member Function Documentation}
+\Hypertarget{class_queue_a3e0d42ab9a74d1c915fea58e4067e385}\index{Queue@{Queue}!display@{display}}
+\index{display@{display}!Queue@{Queue}}
+\doxysubsubsection{\texorpdfstring{display()}{display()}}
+{\footnotesize\ttfamily \label{class_queue_a3e0d42ab9a74d1c915fea58e4067e385} 
+void Queue\+::display (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\Hypertarget{class_queue_ab1e4ece63bf40b6c39eca24c7a8c2bb5}\index{Queue@{Queue}!insert@{insert}}
+\index{insert@{insert}!Queue@{Queue}}
+\doxysubsubsection{\texorpdfstring{insert()}{insert()}}
+{\footnotesize\ttfamily \label{class_queue_ab1e4ece63bf40b6c39eca24c7a8c2bb5} 
+void Queue\+::insert (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+method for enering data into a queue 
+
+\Hypertarget{class_queue_a3d2c6c91c925e5539f5a9e35fc304e61}\index{Queue@{Queue}!remove@{remove}}
+\index{remove@{remove}!Queue@{Queue}}
+\doxysubsubsection{\texorpdfstring{remove()}{remove()}}
+{\footnotesize\ttfamily \label{class_queue_a3d2c6c91c925e5539f5a9e35fc304e61} 
+void Queue\+::remove (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+\label{doc-variable-members}
+\Hypertarget{class_queue_doc-variable-members}
+\doxysubsection{Member Data Documentation}
+\Hypertarget{class_queue_a8b412205bebd2e90296d7f2001af78a5}\index{Queue@{Queue}!FRONT@{FRONT}}
+\index{FRONT@{FRONT}!Queue@{Queue}}
+\doxysubsubsection{\texorpdfstring{FRONT}{FRONT}}
+{\footnotesize\ttfamily \label{class_queue_a8b412205bebd2e90296d7f2001af78a5} 
+int Queue\+::\+FRONT\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+private vsriable max for maxi,u, capacity of element 
+
+\Hypertarget{class_queue_a5aa3bb49ee0375657d957679ed3059a0}\index{Queue@{Queue}!max@{max}}
+\index{max@{max}!Queue@{Queue}}
+\doxysubsubsection{\texorpdfstring{max}{max}}
+{\footnotesize\ttfamily \label{class_queue_a5aa3bb49ee0375657d957679ed3059a0} 
+const int Queue\+::max = 5\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [private]}}
+
+\Hypertarget{class_queue_a3b3b39c8153297e99da4e16dc215acec}\index{Queue@{Queue}!queue\_array@{queue\_array}}
+\index{queue\_array@{queue\_array}!Queue@{Queue}}
+\doxysubsubsection{\texorpdfstring{queue\_array}{queue\_array}}
+{\footnotesize\ttfamily \label{class_queue_a3b3b39c8153297e99da4e16dc215acec} 
+int Queue\+::queue\+\_\+array\mbox{[}\mbox{\hyperlink{class_queue_a5aa3bb49ee0375657d957679ed3059a0}{max}}\mbox{]}\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+private vsriable to rear for indicate the last element 
+
+\Hypertarget{class_queue_a37bcef70a0e9e74bb193ba246ee051ee}\index{Queue@{Queue}!REAR@{REAR}}
+\index{REAR@{REAR}!Queue@{Queue}}
+\doxysubsubsection{\texorpdfstring{REAR}{REAR}}
+{\footnotesize\ttfamily \label{class_queue_a37bcef70a0e9e74bb193ba246ee051ee} 
+int Queue\+::\+REAR\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+private variable front for indicate the first element 
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{circleques_8cpp}{circleques.\+cpp}}\end{DoxyCompactItemize}
